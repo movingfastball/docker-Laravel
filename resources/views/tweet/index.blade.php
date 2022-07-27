@@ -10,7 +10,6 @@
 <body>
     <h1>つぶやきアプリ</h1>
     <div>
-        <p>{{ $name }}</p>
     @foreach($tweets as $tweet)
         <p>{{ $tweet->content }}</p>
     @endforeach
