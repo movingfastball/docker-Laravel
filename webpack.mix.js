@@ -15,7 +15,7 @@ const mix = require('laravel-mix');
     require('postcss-import'),
     require('tailwindcss'),
     require('autoprefixer'),
-]);
+]).version();
 
 mix.webpackConfig({
     stats: {
