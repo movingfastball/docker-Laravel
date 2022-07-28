@@ -566,6 +566,8 @@ video {
   display: flex;
 }.inline-flex {
   display: inline-flex;
+}.table {
+  display: table;
 }.grid {
   display: grid;
 }.hidden {
@@ -674,6 +676,8 @@ video {
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }.overflow-hidden {
   overflow: hidden;
+}.break-all {
+  word-break: break-all;
 }.rounded-md {
   border-radius: 0.375rem;
 }.rounded {
