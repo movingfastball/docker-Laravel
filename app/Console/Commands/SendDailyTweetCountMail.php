@@ -38,7 +38,6 @@ class SendDailyTweetCountMail extends Command
         $this->tweetService = $tweetService;
         $this->mailer = $mailer;
     }
-
     /**
      * Execute the console command.
      *
